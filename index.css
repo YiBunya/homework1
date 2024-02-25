@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aliceblue; */
+}
+.container{
+    width: 60%;
+    padding: 10px;
+    margin: 40px auto;
+    /* background-color: white; */
+    box-shadow: 5px 10px 5px aliceblue;
+    overflow: hidden;
+}
+.boxbar{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #88888884;
+}
+.boxbar p{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.boxbar p:hover{
+    color: blueviolet;
+}
+.boxbar1{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    padding: 20px 10px;
+    margin-top: 20px;
+    
+}
+.boxbar1 p{
+    font-size: 45px;
+    color: #fff;
+}
+.boxtxt {
+    width: 100%;
+    margin-top: 20px;
+}
+.boxtxt p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.boxtxt p span{
+    color: blueviolet;
+    cursor: pointer;
+}
+.boxtxt p span:hover{
+    text-decoration: underline;
+}
+.boxtable{
+    width: 100%;
+    margin-top: 20px;
+}
+.boxtable h1{
+    margin-bottom: 20px;
+}
+.boxtable ul{
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+.boxtable ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 16px;
+}.boxtable ul li a:hover{
+    text-decoration: underline;
+}
+.Article{
+    width: 100%;
+    margin-top: 20px;
+}.Article h1{
+    margin-bottom: 20PX;
+}
+.Article p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}.Article p a{
+    text-decoration: none;
+}.Article p a:hover{
+    text-decoration: underline;
+}
+.Definition p{
+    font-size: 21px;
+    padding-top: 10px;
+    
+}.Definition ul li{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.Definition ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    
+}
+.DefiniteArticle h1{
+    padding-bottom: 20px;
+}
+.DefiniteArticle p{
+    font-size: 18px;
+    line-height: 25px;
+}.DefiniteArticle p a{
+    text-decoration: none;
+    color: rgb(202, 36, 252);
+}.DefiniteArticle p a:hover{
+    text-decoration: underline;
+}
+.example{
+    width: 100%;
+    /* margin-top: 20px; */
+}
+.example p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}.example p a{
+    text-decoration: none;
+    color: rgb(201, 26, 249);
+}.example p a:hover{
+    text-decoration: underline;
+    
+}
+
+.example ul li {
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+    /* list-style-type: disc; */
+}
